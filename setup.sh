@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 test "`which sudo`" || ( echo "You need sudo installed and working"; exit 1; )
 git submodule init
